@@ -58,3 +58,34 @@ android:layout_width="wrap_content"
                     android:text="0 ms" />
             </LinearLayout>
 ```
+# ກຳນົດພື້ນຫລັງສີ
+![Screenshot_2026-02-26-15-48-07-24_7926f7171cab5ff3722cb14d3fb8a90e](https://github.com/user-attachments/assets/621d0451-607a-4b33-a914-9d93e9cc3b34)
+
+**ອະທິບາຍ**
+```
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <gradient
+        android:startColor="@color/b1"
+        android:endColor="@color/b2"
+        android:angle="0.0" />
+    <corners
+        android:radius="16.0dip" />
+</shape>
+```
+**ໂຕນີ້**
+android:angle="0.0" />
+ค่า
+ทิศทางไล่สี
+0
+ซ้าย ➜ ขวา
+90
+ล่าง ➜ บน
+180
+ขวา ➜ ซ้าย
+270
+บน ➜ ล่าง
+
